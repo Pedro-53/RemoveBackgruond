@@ -1,0 +1,21 @@
+# Ignorar arquivos e pastas de ambiente virtual
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar arquivos de configuração do IDE
+.vscode/
+.idea/
+
+# Ignorar arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de logs
+*.log
+
+# Ignorar arquivos do Docker
+docker-compose.yml
+Dockerfile
