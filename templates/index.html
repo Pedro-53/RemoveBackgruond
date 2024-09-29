@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Background</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+
+<body style="padding: 0px; margin: 0px;">
+    <div class="container">
+        <div class="content">
+            <div class="titleContainer">
+                <h1 class="title">Remove Background</h1>
+            </div>
+            <form class="content" method="POST" action="/remove-background" enctype="multipart/form-data">
+                <div class="inputContainer">
+                    <input class="fileInput" type="file" id="fileInput" name="image" accept="image/*" required>
+                    <img id="preview" src="#" alt="Imagem selecionada" style="display:none;">
+                </div>
+                <div class="btnContainer">
+                    <button class="submitBtn" type="submit">Remove Background</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+
+</html>

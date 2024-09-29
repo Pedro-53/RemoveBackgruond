@@ -1,0 +1,30 @@
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputContainer{
+    margin-bottom: 2rem;
+    border:2px dotted black;
+}
+
+
+.titleContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.btnContainer{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+.submitBtn{
+    width: 50%;
+}
